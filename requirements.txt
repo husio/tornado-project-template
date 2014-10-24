@@ -1,0 +1,11 @@
+Jinja2
+SQLAlchemy
+tornado
+pytz
+psycopg2
+sqlparse
+pygments
+redis
+
+nose
+nose-watcher

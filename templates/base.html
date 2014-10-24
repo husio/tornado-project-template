@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Application{% endblock %}</title>
+    <link rel="shortcut icon" href="{{ static_url('favicon.ico') }}" ype="image/ico">
+    {% block header %}{% endblock %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
